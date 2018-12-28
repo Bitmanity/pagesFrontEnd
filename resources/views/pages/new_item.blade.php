@@ -3,7 +3,7 @@
 @section('title', 'New Item')
 
 @section('stylesheet')
-    <link media="screen" type="text/css" rel="stylesheet" href="{{asset('assets/plugins/bootstrap-select2/select2.css')}}">
+    {{--<link media="screen" type="text/css" rel="stylesheet" href="{{asset('assets/plugins/bootstrap-select2/select2.css')}}">--}}
 @endsection
 
 @section('content')
@@ -47,7 +47,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group form-group-default">
-                                            <label>Unit</label>
+                                            <label>Unit of Measurement</label>
                                             <input type="text" class="form-control" name="lastName" required=""
                                                    aria-required="true">
                                         </div>
@@ -108,18 +108,31 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-
-                                        <div class="form-group required" aria-required="true">
-                                            <label>GST Rate to be Applied</label> <br>
-                                            <select class="cs-select cs-skin-slide" data-init-plugin="cs-select">
-                                                <option value="SegeoUI">0.25%</option>
-                                                <option value="SegeoUI">3%</option>
-                                                <option value="Web-safe">5%</option>
-                                                <option value="Helvetica">12&</option>
-                                                <option value="SegeoUI">18%</option>
-                                                <option value="SegeoUI">28%</option>
+                                        <div class="form-group form-group-default form-group-default-select2 ">
+                                            <label class="">GST RATE TO BE APPLIED</label>
+                                            <select class="full-width" data-placeholder="Select Account Type" data-init-plugin="select2" data-minimum-results-for-search="Infinity">
+                                                <!-- <optgroup label="Alaskan/Hawaiian Time Zone"> -->
+                                                <option value="low">0.25%</option>
+                                                <option value="medium">3%</option>
+                                                <option value="high">5%</option>
+                                                <option value="high">12%</option>
+                                                <option value="high">12%</option>
+                                                <option value="high">18%</option>
+                                                <option value="high">28%</option>
+                                                <!-- </optgroup> -->
                                             </select>
                                         </div>
+                                        {{--<div class="form-group required" aria-required="true">--}}
+                                            {{--<label>GST Rate to be Applied</label> <br>--}}
+                                            {{--<select class="cs-select cs-skin-slide" data-init-plugin="cs-select">--}}
+                                                {{--<option value="SegeoUI">0.25%</option>--}}
+                                                {{--<option value="SegeoUI">3%</option>--}}
+                                                {{--<option value="Web-safe">5%</option>--}}
+                                                {{--<option value="Helvetica">12&</option>--}}
+                                                {{--<option value="SegeoUI">18%</option>--}}
+                                                {{--<option value="SegeoUI">28%</option>--}}
+                                            {{--</select>--}}
+                                        {{--</div>--}}
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group form-group-default">
@@ -154,7 +167,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <h5 class="bold p-b-10">Best before</h5>
+                                        <h5 class="bold p-b-10">Best Before</h5>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -221,12 +234,14 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="form-group ">
-                                            <label>Account</label> <br>
-                                            <select class="cs-select cs-skin-slide" data-init-plugin="cs-select">
-                                                <option value="Web-safe">Finished Goods</option>
-                                                <option value="Helvetica">Inventory Assets</option>
-                                                <option value="SegeoUI">Work in Progress</option>
+                                        <div class="form-group form-group-default form-group-default-select2 ">
+                                            <label class="">Account</label>
+                                            <select class="full-width" data-placeholder="Select Account Type" data-init-plugin="select2" data-minimum-results-for-search="Infinity">
+                                                <!-- <optgroup label="Alaskan/Hawaiian Time Zone"> -->
+                                                <option value="low">Finished Goods</option>
+                                                <option value="medium">Inventory Assets</option>
+                                                <option value="high">Work in Progress</option>
+                                                <!-- </optgroup> -->
                                             </select>
                                         </div>
                                     </div>
@@ -259,11 +274,17 @@
 
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group form-group-default">
-                                            <label>Vendor</label>
-                                            <input type="text" class="form-control" name="lastName" required=""
-                                                   aria-required="true">
+                                        <div class="form-group form-group-default form-group-default-select2 ">
+                                            <label class="">Vendor</label>
+                                            <select class="full-width" data-placeholder="Select Country" data-init-plugin="select2">
+                                                <!-- <optgroup label="Alaskan/Hawaiian Time Zone"> -->
+                                                <option value="low">Vendor 1</option>
+                                                <option value="medium">Vendor 2</option>
+                                                <option value="high">Vendor 3</option>
+                                                <!-- </optgroup> -->
+                                            </select>
                                         </div>
+
                                     </div>
                                 </div>
 
@@ -347,6 +368,9 @@
 @section('script')
     <script type="text/javascript" src="{{asset('assets/plugins/switchery/js/switchery.min.js')}}"></script>
     <script src="{{asset('assets/plugins/classie/classie.js')}}" type="text/javascript"></script>
+    {{--<script src="{{asset('assets/plugins/bootstrap-select2/select2.min.js')}}" type="text/javascript"></script>--}}
+
+
 
 
     <script>
