@@ -18,3 +18,7 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('layouts.default');
 });
+
+Route::get('items', function () {
+    return view('pages.new_item');
+});

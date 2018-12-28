@@ -1,6 +1,5 @@
  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
  <meta charset="utf-8" />
- <title>Pages by Bitmanity</title>
  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
  <link rel="apple-touch-icon" href="pages/ico/60.png">
  <link rel="apple-touch-icon" sizes="76x76" href="pages/ico/76.png">
@@ -18,5 +17,11 @@
 <link href="{{asset('assets/plugins/select2/css/select2.min.css')}}" rel="stylesheet" type="text/css" media="screen" />
 <link href="{{asset('assets/plugins/switchery/css/switchery.min.css')}}" rel="stylesheet" type="text/css" media="screen" />
 
+ {{--Vendors CSS--}}
+ <link media="screen" type="text/css" rel="stylesheet" href="{{asset('assets/plugins/bootstrap-datepicker/css/datepicker3.css')}}">
+ <link media="screen" type="text/css" rel="stylesheet" href="{{asset('css/bitmanity.css')}}">
+
+
  <link href="{{asset('pages/css/pages-icons.css')}}" rel="stylesheet" type="text/css">
- <link class="main-stylesheet" href="{{asset('pages/css/themes/light.css')}}" rel="stylesheet" type="text/css" />
+ <link href="{{asset('pages/css/pages.css')}}" rel="stylesheet" type="text/css">
+

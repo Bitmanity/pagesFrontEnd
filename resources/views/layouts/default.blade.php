@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>@yield('title')</title>
     @include('includes.stylesheet')
+    @yield('stylesheet')
   </head>
   <body class="fixed-header">
     <!-- BEGIN SIDEBAR -->
@@ -30,7 +32,7 @@
                   <li class="breadcrumb-item"><a href="#">Barebone</a></li>
                   <li class="breadcrumb-item active">Layout</li>
                 </ol>
-                <!-- END BREADCRUMB --> 
+                <!-- END BREADCRUMB -->
               </div>
             </div>
           </div>
@@ -38,6 +40,7 @@
           <!-- START CONTAINER FLUID -->
           <div class="container-fluid container-fixed-lg">
             <!-- BEGIN PlACE PAGE CONTENT HERE -->
+              @yield('content')
             <!-- END PLACE PAGE CONTENT HERE -->
           </div>
           <!-- END CONTAINER FLUID -->
@@ -58,5 +61,6 @@
     <!-- END OVERLAY -->
     <!-- BEGIN VENDOR JS -->
      @include('includes.script')
+  @yield('script')
   </body>
 </html>
