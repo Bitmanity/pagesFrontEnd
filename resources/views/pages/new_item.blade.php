@@ -29,9 +29,16 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                         <div class="form-group form-group-default required" aria-required="true">
                                             <label>Product Name</label>
+                                            <input type="text" class="form-control" name="firstName" required=""
+                                                   aria-required="true">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-group-default required" aria-required="true">
+                                            <label>Product Code Name</label>
                                             <input type="text" class="form-control" name="firstName" required=""
                                                    aria-required="true">
                                         </div>
@@ -39,14 +46,14 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="form-group form-group-default required" aria-required="true">
+                                        <div class="form-group form-group-default disabled" aria-required="true">
                                             <label>SKU</label>
                                             <input type="text" class="form-control" name="firstName" required=""
-                                                   aria-required="true">
+                                                   aria-required="true" readonly>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group form-group-default">
+                                        <div class="form-group form-group-default ">
                                             <label>Unit of Measurement</label>
                                             <input type="text" class="form-control" name="lastName" required=""
                                                    aria-required="true">
@@ -245,7 +252,14 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-6"></div>
+                                    <div class="col-md-6">
+                                        <div class="form-group form-group-default">
+                                            <label>Stock Location</label>
+                                            <input type="text" class="form-control" name="lastName" required=""
+                                                   aria-required="true">
+                                        </div>
+
+                                    </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">
@@ -287,6 +301,7 @@
 
                                     </div>
                                 </div>
+
 
                             </div>
                         </div>

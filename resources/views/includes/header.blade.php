@@ -3,7 +3,7 @@
     <a class="btn-link toggle-sidebar d-lg-none pg pg-menu" data-toggle="sidebar" href="#"></a> <!-- END MOBILE SIDEBAR TOGGLE -->
     <div class="">
       <div class="brand inline">
-      <img alt="logo" data-src="{{asset('assets/img/logo.png')}}" data-src-retina="{{asset('assets/img/logo.png')}}" height="22" src="{{asset('assets/img/logo.png')}}" width="78">
+      <img alt="logo" data-src="{{asset('assets/img/logo.png')}}" data-src-retina="{{asset('assets/img/logo_2x.png')}}" height="22" src="{{asset('assets/img/logo.png')}}" width="78">
       </div><!-- START NOTIFICATION LIST -->
       <ul class="d-lg-inline-block d-none notification-list no-margin d-lg-inline-block b-grey b-l b-r no-style p-l-30 p-r-20">
         <li class="p-r-10 inline">

@@ -22,3 +22,6 @@ Route::get('/', function () {
 Route::get('items', function () {
     return view('pages.new_item');
 });
+Route::get('contact', function () {
+    return view('pages.new_contact');
+});

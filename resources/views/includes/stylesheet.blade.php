@@ -24,4 +24,6 @@
 
  <link href="{{asset('pages/css/pages-icons.css')}}" rel="stylesheet" type="text/css">
  <link href="{{asset('pages/css/pages.css')}}" rel="stylesheet" type="text/css">
+ {{--<link href="{{asset('pages/css/themes/light.css')}}" rel="stylesheet" type="text/css">--}}
+
 

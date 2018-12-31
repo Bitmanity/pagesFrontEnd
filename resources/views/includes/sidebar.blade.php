@@ -6,7 +6,7 @@
     <!-- END SIDEBAR MENU TOP TRAY CONTENT-->
     <!-- BEGIN SIDEBAR MENU HEADER-->
     <div class="sidebar-header">
-      <img src="{{asset('assets/img/logo_white.png')}}" alt="logo" class="brand" data-src="{{asset('assets/img/logo_white.png')}}" data-src-retina="{{asset('assets/img/logo_white.png')}}" width="78" height="22">
+      <img src="{{asset('assets/img/logo_white.png')}}" alt="logo" class="brand" data-src="{{asset('assets/img/logo_white_2x.png')}}" data-src-retina="{{asset('assets/img/logo_white.png')}}" width="78" height="22">
       <div class="sidebar-header-controls">
         <button type="button" class="btn btn-xs sidebar-slide-toggle btn-link m-l-20" data-pages-toggle="#appMenu"><i class="fa fa-angle-down fs-16"></i>
         </button>
@@ -16,7 +16,7 @@
     </div>
     <!-- END SIDEBAR MENU HEADER-->
     <!-- START SIDEBAR MENU -->
-    <div class="sidebar-menu sidebar-open">
+    <div class="sidebar-menu sidebar-open ">
       <!-- BEGIN SIDEBAR MENU ITEMS-->
       <ul class="menu-items">
         <li class="m-t-30">
@@ -24,32 +24,32 @@
             <span class="title">Page 1</span>
             <span class="details">234 notifications</span>
           </a>
-          <span class="icon-thumbnail "><i class="pg-mail"></i></span>
+          <span class="icon-thumbnail "><i class="pg-mail fs-16"></i></span>
         </li>
         <li class="">
           <a href="#">
             <span class="title">Page 2</span>
           </a>
-          <span class="icon-thumbnail "><i class="pg-social"></i></span>
+          <span class="icon-thumbnail "><i class="pg-social fs-16"></i></span>
         </li>
         <li class="">
           <a href="javascript:;">
             <span class="title">Page 3</span>
             <span class=" arrow"></span>
           </a>
-          <span class="icon-thumbnail"><i class="pg-grid"></i></span>
+          <span class="icon-thumbnail"><i class="pg-grid fs-16"></i></span>
           <ul class="sub-menu">
             <li class="">
               <a href="#">Sub Page 1</a>
-              <span class="icon-thumbnail">sp</span>
+              <span class="icon-thumbnail fs-16">sp</span>
             </li>
             <li class="">
               <a href="#">Sub Page 2</a>
-              <span class="icon-thumbnail">sp</span>
+              <span class="icon-thumbnail fs-16">sp</span>
             </li>
             <li class="">
               <a href="#">Sub Page 3</a>
-              <span class="icon-thumbnail">sp</span>
+              <span class="icon-thumbnail fs-16">sp</span>
             </li>
           </ul>
         </li>
