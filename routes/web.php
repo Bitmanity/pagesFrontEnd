@@ -25,3 +25,6 @@ Route::get('items', function () {
 Route::get('contact', function () {
     return view('pages.new_contact');
 });
+Route::get('pos', function () {
+    return view('pages.pos');
+});
